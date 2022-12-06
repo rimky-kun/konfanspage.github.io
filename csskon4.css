@@ -1,0 +1,474 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-image: url("hero bg 4.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+
+header {
+	width: 100%;
+	height: 5%;
+	background-color: rgba(255,255,255,0.26);
+	backdrop-filter: blur(5px);
+	padding-bottom: 50px;
+	margin-bottom: -50px;
+}
+.logo {
+	color: #fff;
+	font-weight: bold;
+	text-align: undefined;
+	width: 10%;
+	float: left;
+	margin-top: 15px;
+	margin-left: 25px;
+	letter-spacing: 4px;
+}
+
+img.logo {
+	padding: 0px 0px 30px 0px;
+	margin: -3px 0px 30px 38px;
+	height: auto;
+	width: 8.5%;
+}
+
+.navv {
+	padding-top: 205px;
+	margin-bottom: -314px;
+}
+nav p{
+	color: white;
+	background-color: #896B00;
+	border: 2px solid tranparent;
+	border-radius: 15px;
+	list-style-type: none;
+	display: inline-block;
+    padding: 10px 25px;
+	margin-left: 6px;
+	margin-right: 15px;
+	transform: translateY(-13%);
+	
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+    padding: 10px 25px;
+	transform: translateY(-13%);
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-tranform: capitalize;
+	text-shadow: 0px 0px 5px #896B00, 0px 0px 15px #896B00;
+}
+nav ul li a:hover{
+	color: white;
+	text-shadow: 0px 0px 50px white, 0px 0px 50px white;
+	transition: .4s;
+}
+.dropbtn {
+	font-family: 'Poppins', sans-serif;
+	background-color: #A98300;
+    color: white;
+    padding: 12.5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: rgba(0,0,0,0.50);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	color: white;
+	background-color: rgba(127,99,0,0.50);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #896B00;
+}
+
+.karakter {
+	padding-top: -160px;
+	margin-top: -160px;
+	padding-bottom: -190px;
+	margin-bottom: -190px;
+	
+}
+
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: -35px;
+	margin-left: 0px;
+	letter-spacing: 2px;
+	font-size: 30px;
+	text-shadow: 0px 0px 10px #9B6A00, 0px 0px 10px #9B6A00;
+}
+img.adminn {
+	filter: invert(100%);
+	width: 15%;
+	height: auto;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px -3.4px 4px;
+	color: white;
+}
+.hero {
+	background-image: linear-gradient(to top, black -25%, transparent 30%);
+	background-size: cover;
+	background-position: 10% 50%;
+	padding-top: 160px;
+	padding-bottom: 327px;
+}
+.light {
+	font-weight: bolder;
+	color: orangered;
+	-webkit-text-stroke: 0.001px white;
+}
+
+.text_column {
+	overflow: scroll;
+	overflow-x: hidden;
+    height: 125px;
+	width: 29%;
+	text-align: justify;
+	font-weight: lighter;
+	line-height: 25px;
+	float: left;
+	padding-left: 30px;
+	padding-right: 15px;
+	color: white;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: rgba(255,255,255,0.14);
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px gray;
+	background-color: rgba(0,0,0,0.1);
+}
+/* div di-hover dan scroll bar diberi background solid agar terlihat */
+.scroll-pane:hover::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, .1);
+  border-radius: 2px;
+  
+}
+.scroll-pane:hover::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, .4);
+  transition: all 400ms ease-in-out;
+}
+.scroll-pane:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, .6);
+}
+.yui {
+	background-color: cadetblue;
+	background-image: url("yuii.png");
+	background-position: 90% 4%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 130%;
+}
+
+.banner {
+	background-image: linear-gradient(to left, darksalmon -20%, transparent 100%);
+	background-position: 5% -10%;
+	height: 400px;
+	background-repeat: no-repeat;
+}
+
+.efek {
+	background-image: url("baka yui.png");
+	background-position: -25% 7%;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: 64%;
+}
+
+.parallax {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 100px;
+	padding-top: 110px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+.parallax_description {
+	overflow: scroll;
+	overflow-x: hidden;
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 30px;
+	width: 300px;
+    height: 140px;
+	float: right;
+	font-weight: lighter;
+	line-height: 23px;
+	margin-top: 0px;
+	margin-right: 60px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: rgba(255,255,255,0.14);
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px gray;
+	background-color: rgba(0,0,0,0.1);
+}
+/* div di-hover dan scroll bar diberi background solid agar terlihat */
+.scroll-pane:hover::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, .1);
+  border-radius: 2px;
+  
+}
+.scroll-pane:hover::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, .4);
+  transition: all 400ms ease-in-out;
+}
+.scroll-pane:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.mio {
+	background-color: slategray;
+	background-image: url("mio.png");
+	background-position: 80% 4%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 180%;
+}
+
+.banner2 {
+	background-image: linear-gradient(to right, goldenrod -20%, transparent 80%);
+	background-position: 5% -10%;
+	height: 400px;
+	background-repeat: no-repeat;
+}
+.efek2 {
+	background-image: url("pngwing.com (29).png");
+	background-position: 360% 15%;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: 96%;
+	
+}
+.parallax2 {
+	color: #FFFFFF;
+	text-align: left;
+	padding-left: 100px;
+	padding-top: 110px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+.parallax_description2 {
+	overflow: scroll;
+	overflow-x: hidden;
+	color: #FFFFFF;
+	text-align: left;
+	padding-right: 30px;
+	width: 300px;
+    height: 140px;
+	float: left;
+	font-weight: lighter;
+	line-height: 23px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 99.5px;
+}
+
+.ritsu {
+	background-color: darkcyan;
+	background-image: url("ricchan.png");
+	background-position: 90% 4%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 130%;
+}
+
+.banner3 {
+	background-image: linear-gradient(to left, lightgreen -20%, transparent 100%);
+	background-position: 5% -10%;
+	height: 400px;
+	background-repeat: no-repeat;
+}
+
+.efek3 {
+	background-image: url("pngwing.com (80).png");
+	background-position: -23% 16%;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: 68%;
+}
+.parallax3 {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 100px;
+	padding-top: 110px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+.parallax_description3 {
+	overflow: scroll;
+	overflow-x: hidden;
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 30px;
+	width: 300px;
+    height: 140px;
+	float: right;
+	font-weight: lighter;
+	line-height: 23px;
+	margin-top: 0px;
+	margin-right: 60px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.mugi {
+	background-color: gray;
+	background-image: url("mugi.png");
+	background-position: -68% 6%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 110%;
+}
+
+.banner4 {
+	background-image: linear-gradient(to right, coral -20%, transparent 100%);
+	background-position: 5% -10%;
+	height: 400px;
+	background-repeat: no-repeat;
+}
+.efek4 {
+	background-image: url("pngwing.com (31).png");
+	background-position: 145% 13%;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: 68%;
+}
+.parallax4 {
+	color: #FFFFFF;
+	text-align: left;
+	padding-left: 100px;
+	padding-top: 110px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+.parallax_description4 {
+	overflow: scroll;
+	overflow-x: hidden;
+	color: #FFFFFF;
+	text-align: left;
+	padding-right: 30px;
+	width: 300px;
+    height: 140px;
+	float: left;
+	font-weight: lighter;
+	line-height: 23px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 99.5px;
+}
+
+.azunyan {
+	background-color: lightsteelblue;
+	background-image: url("azuyan.png");
+	background-position: 90% 9.5%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.banner5 {
+	background-image: linear-gradient(to left, orange -50%, transparent 100%);
+	background-position: 5% -10%;
+	height: 400px;
+	background-repeat: no-repeat;
+}
+
+.efek5 {
+	background-image: url("pngwing.com (74).png");
+	background-position: 13% 15.5%;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: 52%;
+}
+.parallax5 {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 100px;
+	padding-top: 110px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+.parallax_description5 {
+	overflow: scroll;
+	overflow-x: hidden;
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 30px;
+	width: 300px;
+    height: 140px;
+	float: right;
+	font-weight: lighter;
+	line-height: 23px;
+	margin-top: 0px;
+	margin-right: 60px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
